@@ -1,0 +1,76 @@
+node-unicode-property-aliases (1.5.1+ds-2) unstable; urgency=medium
+
+  * Depend on Unicode 14.0.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 27 Oct 2021 19:18:19 +0200
+
+node-unicode-property-aliases (1.5.1+ds-1) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 29 Aug 2021 21:12:25 +0200
+
+node-unicode-property-aliases (1.5.0+ds-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Julien Puydt ]
+  * Mark the import autopkgtest as superficial.
+  * Declare d/rules doesn't require root.
+  * Bump dh compat to 13.
+  * Install in /usr/share/nodejs instead of /usr/lib/nodejs.
+  * Declare change_paths.patch as Debian-specific.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 10 Nov 2020 07:24:55 +0100
+
+node-unicode-property-aliases (1.5.0+ds-1) unstable; urgency=medium
+
+  * Bump std-ver to 4.5.0.
+  * New upstream release.
+  * Depend on versioned unicode-data at least 13.0.0 (Closes: #928006).
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 15 Mar 2020 08:33:32 +0100
+
+node-unicode-property-aliases (1.4.0+ds-2) unstable; urgency=medium
+
+  * Bump dh compat to 12 and drop d/compat.
+  * Bump std-ver to 4.4.0.
+  * Just by uploading: closes #928006.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 30 Jul 2019 22:06:13 +0200
+
+node-unicode-property-aliases (1.4.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Point Vcs-* fields to salsa.
+    - Mark the package M-A: foreign following hinter.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.3.0.
+    - Use my debian.org mail address.
+    - Update dates in d/copyright.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 15 Apr 2019 14:21:41 +0200
+
+node-unicode-property-aliases (1.3.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 23 Feb 2018 11:39:34 +0100
+
+node-unicode-property-aliases (1.2.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 20 Feb 2018 09:11:49 +0100
+
+node-unicode-property-aliases (1.1.1+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #854138)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 06 Sep 2017 09:21:10 +0200

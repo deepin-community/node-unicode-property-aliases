@@ -1,0 +1,15 @@
+Description: Adapt paths for the Debian packaging
+Author: Julien Puydt
+Forwarded: Debian-specific
+
+--- a/scripts/build.js
++++ b/scripts/build.js
+@@ -5,7 +5,7 @@
+ 
+ const parsePropertyAliases = function() {
+ 	const map = new Map();
+-	const source = fs.readFileSync('./data/PropertyAliases.txt', 'utf8');
++	const source = fs.readFileSync('../data/PropertyAliases.txt', 'utf8');
+ 	const lines = source.split('\n');
+ 	lines.forEach(function(line) {
+ 		if (!line || /^#/.test(line)) {
